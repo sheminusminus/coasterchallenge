@@ -73,24 +73,26 @@ function cart(e,wheelL,wheelR,track,x) {
   return Xform(e, V2sub(Lpos,L), rad2deg(rot), L);
 }
 
+
 $(document).ready(function() {
   var root = Snap('#infograph');
-  Snap.load('svg/scene.svg', function(scene) {
+  Snap.load('svg/scenewithnames4.svg', function(scene) {
     root.append(scene);
     var track = sel(root,'#track');
     var dino = sel(root,'#dinoCar');
     var wheelL = sel(root,'#dinoWheelL');
     var wheelR = sel(root,'#dinoWheelR');
-
     var dx = -dino.getBBox().x;
     var dy = -dino.getBBox().y;
     xform(dino, 0, 0);
     xform(wheelL, dx, dy);
     xform(wheelR, dx, dy);
-
+    
     // Snap.animate(0, track.getTotalLength(), function(l) {
     //   cart(dino,wheelL,wheelR,track,l);
     // }, 30000, mina.bounce);
+   	    
+    
 
 
     var start = new Date().getTime();
@@ -114,7 +116,7 @@ $(document).ready(function() {
         fpsSec = sec;
         fps = fpsCount;
         fpsCount = 0;
-        console.log("fps: " + fps);
+        //console.log("fps: " + fps);
       } else {
         ++fpsCount;
       }
@@ -149,4 +151,5 @@ $(document).ready(function() {
       render();
     })();
   });
+  
 });

@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="css/vendor/hopscotch.min.css"/>
 <!-- 	using the vendor-prefixed stylesheet below for mobile support -->
 <!--	uncomment style.css and comment-out prefixed.style.css for testing -->
-<!--     <link rel="stylesheet" href="css/style.css"/> -->
-    <link rel="stylesheet" href="css/prefixed.style.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+<!--     <link rel="stylesheet" href="css/bubbles.css"/> -->
+<!--     <link rel="stylesheet" href="css/prefixed.style.css"/> -->
     <script src="js/vendor/jquery.min.js" charset="utf-8"></script>
     <script src="js/vendor/snap.svg.js"></script>
     <script src="js/vendor/hopscotch.min.js"></script>
+    <script src="js/vendor/TimelineMax.min.js"></script>
+    <script src="js/vendor/TweenMax.min.js"></script>
 </head>
 <body class="landing">
 	
@@ -36,10 +39,52 @@
 	
 	<div class="infographic">
 		
-			<svg version="1.1" id="infograph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="612px" height="1806.05px" viewBox="0 0 612 1806.05" enable-background="new 0 0 612 1806.05" xml:space="preserve">
-	 		</svg>
+			<svg version="1.1" id="back-clouds" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve">
+		  <path id="big-cloud-r" opacity="0.3" fill="#FFFFFF" d="M726.005,730.601l219.545,0.367c0,0,96.345-14.416,95.971-101.562
+			c-0.373-87.147-92.931-101.345-92.931-101.345l-222.585,1.758c0,0-91.264,5.786-91.264,99.587S726.005,730.601,726.005,730.601z"/>
+		<path id="big-cloud-l" opacity="0.3" fill="#FFFFFF" d="M244.782,798.478l255.989,0.428c0,0,112.333-16.82,111.9-118.51
+			c-0.435-101.688-108.358-118.255-108.358-118.255l-259.531,2.052c0,0-106.413,6.752-106.413,116.203
+			C138.37,789.849,244.782,798.478,244.782,798.478z"/>
+			</svg>
 
+			<svg version="1.1" id="infograph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve">
+	 		</svg>
+	 							
+	 		
+
+	 		<svg version="1.1" id="front-clouds" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" xml:space="preserve" pointer-events="none";>
+		
+		<path id="cloudR" opacity="0.8" fill="#FFFFFF" d="M623.696,488.575H895.35c0,0,33.24,1.1,33.24,42.986s-33.24,42.984-33.24,42.984
+		H623.696c0,0-33.239,8.543-33.239-42.984C590.457,480.034,623.696,488.575,623.696,488.575z"/>
+	<path id="cloudL" opacity="0.5" fill="#FFFFFF" d="M108.136,509.868h217.326c0,0,26.592,0.73,26.592,28.558
+		c0,27.828-26.592,28.557-26.592,28.557H108.136c0,0-26.591,5.675-26.591-28.557S108.136,509.868,108.136,509.868z"/>
+	<path id="cloudL2" opacity="0.8" fill="#FFFFFF" d="M331.854,598.1h154.161c0,0,18.861,0.539,18.861,21.061
+		c0,20.522-18.861,21.06-18.861,21.06H331.854c0,0-18.862,4.187-18.862-21.06C312.991,593.916,331.854,598.1,331.854,598.1z"/>
+	<path id="cloudR2" opacity="0.8" fill="#FFFFFF" d="M691.312,580.782H828.8c0,0,16.822,0.602,16.822,23.548
+		c0,22.946-16.822,23.547-16.822,23.547H691.312c0,0-16.823,4.68-16.823-23.547C674.489,576.102,691.312,580.782,691.312,580.782z"
+		/>
+	<path id="cloudL3" opacity="0.5" fill="#FFFFFF" d="M164.962,571.249h217.326c0,0,26.593,0.68,26.593,26.593
+		c0,25.914-26.593,26.592-26.593,26.592H164.962c0,0-26.593,5.285-26.593-26.592C138.37,565.964,164.962,571.249,164.962,571.249z"
+		/>
+	<path id="cloudPuffR" fill="#EBECF2" d="M795.753,608.132h177.048c0,0-7.446-16.943-15.406-24.099
+		c-11.223-10.088-35.622-3.123-35.622-3.123s-9.091-13.406-24.833-19.237c-18.895-6.998-38.561-10.491-61.736-2.929
+		C818.88,564.071,793.938,580.3,795.753,608.132z"/>
+	<path id="cloudPuffL" fill="#FFFFFF" d="M620.474,590.152H234.281c0,0,16.242-35.097,33.606-49.92
+		c24.479-20.897,77.703-6.469,77.703-6.469s19.83-27.77,54.169-39.849c41.21-14.496,84.11-21.732,134.662-6.066
+		C570.025,498.881,624.433,532.5,620.474,590.152z"/>
+	<path id="cloudL4" opacity="0.5" fill="#FFFFFF" d="M362.848,624.62h188.828c0,0,23.104,0.71,23.104,27.78
+		c0,27.071-23.104,27.781-23.104,27.781H362.848c0,0-23.105,5.521-23.105-27.781C339.742,619.1,362.848,624.62,362.848,624.62z"/>
+	<path id="cloudC" opacity="0.6" fill="#FFFFFF" d="M552.065,617.719h128.942c0,0,15.777,0.403,15.777,15.777
+		s-15.777,15.778-15.777,15.778H552.065c0,0-15.778,3.135-15.778-15.778S552.065,617.719,552.065,617.719z"/>
+	<path id="cloudR3" pointer-events="fill" opacity="0.6" fill="#FFFFFF" d="M742.771,629.778h147.377c0,0,18.033,0.548,18.033,21.42
+		c0,20.872-18.033,21.419-18.033,21.419H742.771c0,0-18.033,4.257-18.033-21.419S742.771,629.778,742.771,629.778z"/>
+	<path id="cloudPuffC" pointer-events="fill" opacity="0.9" fill="#EBECF2" d="M759.381,609.968H489.719c0,0,11.341-25.806,23.465-36.705
+		c17.092-15.366,54.256-4.757,54.256-4.757s13.847-20.419,37.822-29.3c28.775-10.659,58.732-15.979,94.031-4.46
+		C724.154,542.858,762.146,567.577,759.381,609.968z"/>
+	<path id="cloudRtiny" opacity="0.3" fill="#FFFFFF" d="M946.941,590.91h42.09c0,0,5.15,0.548,5.15,21.42
+		c0,20.872-5.15,21.419-5.15,21.419h-42.09c0,0-5.149,4.257-5.149-21.419S946.941,590.91,946.941,590.91z"/>
+			</svg>
+	 		<div id="bubble1" class="bubbleTrigger"></div>
 	 		<div id="bubble2" class="bubbleTrigger"></div>
 	 		<div id="bubble3" class="bubbleTrigger"></div>	 		
 	 		<div id="bubble4" class="bubbleTrigger"></div>	 		
@@ -51,5 +96,6 @@
 <script src="js/index.js"></script>
 <script src="js/moveimage.js"></script>
 <script src="js/dinotour.js"></script>
+<!-- <script src="js/tm.js"></script> -->
 </body>
 </html>

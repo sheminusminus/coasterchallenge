@@ -1,0 +1,81 @@
+<svg version="1.1" id="cloudsRight" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="2936.831px" viewBox="0 0 1000 2936.831" enable-background="new 0 0 1000 2936.831"
+	 xml:space="preserve">
+<g id="cloudGroups">
+	<g id="cloudGroupR">
+		<g id="cloudLargeR" opacity="0.3">
+			<g>
+				<defs>
+					<rect id="SVGID_1_" x="542.053" y="48.973" width="442.113" height="221.133"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  overflow="visible"/>
+				</clipPath>
+				<path clip-path="url(#SVGID_2_)" fill="#FFFFFF" d="M873.602,270.106H652.62c-61.064,0-110.566-49.502-110.566-110.565
+					c0-61.064,49.502-110.566,110.566-110.566h220.982c61.063,0,110.566,49.501,110.566,110.566
+					C984.168,220.604,934.666,270.106,873.602,270.106"/>
+			</g>
+		</g>
+		<g id="cloudSmallMid" opacity="0.5">
+			<g>
+				<defs>
+					<rect id="SVGID_3_" x="462.954" y="146.916" width="136.616" height="26.862"/>
+				</defs>
+				<clipPath id="SVGID_4_">
+					<use xlink:href="#SVGID_3_"  overflow="visible"/>
+				</clipPath>
+				<path clip-path="url(#SVGID_4_)" fill="#FFFFFF" d="M586.141,173.776H476.384c-7.417,0-13.43-6.014-13.43-13.429
+					c0-7.418,6.013-13.431,13.43-13.431h109.757c7.417,0,13.429,6.013,13.429,13.431
+					C599.57,167.763,593.558,173.776,586.141,173.776"/>
+			</g>
+		</g>
+		<g id="cloudSmallR1" opacity="0.7">
+			<g>
+				<defs>
+					<rect id="SVGID_5_" x="604.713" y="115.873" width="184.389" height="47.03"/>
+				</defs>
+				<clipPath id="SVGID_6_">
+					<use xlink:href="#SVGID_5_"  overflow="visible"/>
+				</clipPath>
+				<path clip-path="url(#SVGID_6_)" fill="#FFFFFF" d="M627.959,116.28l137.762-0.401c12.877-0.037,23.345,10.37,23.381,23.245
+					c0.038,12.875-10.368,23.342-23.244,23.381l-137.764,0.402c-12.872,0.038-23.34-10.369-23.381-23.244
+					C604.678,126.786,615.085,116.318,627.959,116.28"/>
+			</g>
+		</g>
+		<g id="cloudSmallR2" opacity="0.7">
+			<g>
+				<defs>
+					<rect id="SVGID_7_" x="651.141" y="160.348" width="184.39" height="47.03"/>
+				</defs>
+				<clipPath id="SVGID_8_">
+					<use xlink:href="#SVGID_7_"  overflow="visible"/>
+				</clipPath>
+				<path clip-path="url(#SVGID_8_)" fill="#FFFFFF" d="M674.387,160.749l137.762-0.402c12.875-0.037,23.344,10.37,23.382,23.245
+					c0.037,12.875-10.369,23.342-23.247,23.381l-137.76,0.402c-12.875,0.037-23.344-10.368-23.379-23.244
+					C651.104,171.253,661.511,160.786,674.387,160.749"/>
+			</g>
+		</g>
+		<g id="cloudMedR" opacity="0.7">
+			<g>
+				<defs>
+					<rect id="SVGID_9_" x="507.586" y="11.194" width="361.341" height="92.161"/>
+				</defs>
+				<clipPath id="SVGID_10_">
+					<use xlink:href="#SVGID_9_"  overflow="visible"/>
+				</clipPath>
+				<path clip-path="url(#SVGID_10_)" fill="#FFFFFF" d="M553.135,11.983l269.974-0.789c25.229-0.072,45.742,20.32,45.818,45.554
+					c0.071,25.23-20.322,45.743-45.557,45.818l-269.966,0.788c-25.234,0.075-45.748-20.319-45.82-45.552
+					C507.509,32.57,527.903,12.057,553.135,11.983"/>
+			</g>
+		</g>
+		<g id="cloudPuffsR">
+			<path id="cloudPuffR" fill="#FFFFFF" d="M887.112,133.949c0-7.812-2.623-15.179-7.25-21.691c4.572-2.07,9.643-3.232,14.986-3.232
+				c18.044,0,33.009,13.137,35.878,30.368h-44.054C886.952,137.604,887.112,135.791,887.112,133.949"/>
+			<path id="cloudPuffR2" fill="#FFFFFF" d="M858.967,139.392H754.247c-0.284-1.787-0.443-3.601-0.443-5.443
+				c0-26.421,29.842-47.842,66.654-47.842c25.928,0,48.384,10.634,59.404,26.15C869.001,117.174,860.985,127.266,858.967,139.392"/>
+			<path fill="#FFFFFF" d="M886.672,139.392h-27.705c2.018-12.126,10.034-22.217,20.895-27.135
+				c4.627,6.513,7.253,13.88,7.253,21.692C887.115,135.791,886.952,137.605,886.672,139.392"/>
+		</g>
+	</g>
+</g>
+</svg>
