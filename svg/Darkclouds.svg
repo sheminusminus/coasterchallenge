@@ -1,0 +1,39 @@
+<svg class="Clouds cloud1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 707.74 234.29">
+    <defs>
+        <style>.cls-1,.cls-2,.cls-3,.cls-4{fill:#ggg;}.cls-1{opacity:0.5;}.cls-2{opacity:0.7;}.cls-3{opacity:0.3;}.cls-5{fill:#eaedf3;}
+        .cloud1 {
+	top: 80px;
+  z-index: 100;
+  /* Animation shorthand syntax order: name, duration, timing-function, delay, iteration-count, direction, fill-mode */
+  -webkit-animation: move 20s linear infinite;
+  -moz-animation: move 20s linear infinite;
+  -o-animation: move 20s linear infinite;
+  animation: move 20s linear infinite;
+}
+            
+        @-webkit-keyframes move {
+  from {-webkit-transform: translateX(-400px);}
+  to {-webkit-transform: translateX(1350px);}
+}
+        </style>
+    </defs>
+    <title>background2</title>
+    
+    <path class="cls-1" d="M251,366.09H117.5a16.33,16.33,0,1,1,0-32.67H251a16.33,16.33,0,0,1,0,32.67" transform="translate(44.81 -251.43)"/><path class="cls-2" d="M333,322.47H199.5a16.33,16.33,0,1,1,0-32.67H333a16.33,16.33,0,0,1,0,32.67" transform="translate(44.81 -251.43)"/>
+    <path class="cls-3" d="M260.32,485.73H82.43a89,89,0,1,1,0-178H260.32a89,89,0,0,1,0,178" transform="translate(44.81 -251.43)"/>
+    <path class="cls-3" d="M585.46,441.23H430.64a77.46,77.46,0,1,1,0-154.93H585.46a77.46,77.46,0,0,1,0,154.93" transform="translate(44.81 -251.43)"/>
+    <path class="cls-1" d="M292.7,398.34H159.22a16.33,16.33,0,1,1,0-32.67H292.7a16.33,16.33,0,0,1,0,32.67" transform="translate(44.81 -251.43)"/>
+    <path class="cls-1" d="M365.85,373.19H289a9.41,9.41,0,1,1,0-18.82h76.9a9.41,9.41,0,0,1,0,18.82" transform="translate(44.81 -251.43)"/>
+    <path class="cls-1" d="M192.65,361H27.16a20.25,20.25,0,1,1,0-40.5H192.65a20.25,20.25,0,0,1,0,40.5" transform="translate(44.81 -251.43)"/><path class="cls-1" d="M140.93,321.06H-24.56a20.25,20.25,0,0,1-20.25-20.25,20.25,20.25,0,0,1,20.25-20.25H140.93a20.25,20.25,0,0,1,0,40.5" transform="translate(44.81 -251.43)"/>
+    <path class="cls-2" d="M395.15,332.9l96.52-.28a16.33,16.33,0,0,1,.1,32.67l-96.52.28a16.33,16.33,0,0,1-.1-32.67" transform="translate(44.81 -251.43)"/>
+    <path class="cls-2" d="M427.68,364.06l96.52-.28a16.33,16.33,0,1,1,.09,32.67l-96.52.28a16.33,16.33,0,0,1-.1-32.67" transform="translate(44.81 -251.43)"/>
+    <path class="cls-2" d="M342.73,259.83l189.15-.55a32,32,0,1,1,.18,64l-189.14.55a32,32,0,0,1-.19-64" transform="translate(44.81 -251.43)"/><path class="cls-4" d="M576.72,345.28a26.08,26.08,0,0,0-5.08-15.2,25.49,25.49,0,0,1,35.64,19H576.41a24.49,24.49,0,0,0,.31-3.81" transform="translate(44.81 -251.43)"/>
+    <path class="cls-4" d="M557,349.1H483.63a24.22,24.22,0,0,1-.31-3.81c0-18.51,20.91-33.52,46.7-33.52,18.17,0,33.9,7.45,41.62,18.32a25.52,25.52,0,0,0-14.64,19" transform="translate(44.81 -251.43)"/>
+    <path class="cls-4" d="M576.41,349.1H557a25.52,25.52,0,0,1,14.64-19,26.08,26.08,0,0,1,5.08,15.2,24.48,24.48,0,0,1-.31,3.81" transform="translate(44.81 -251.43)"/>
+    <path class="cls-4" d="M130.74,331.3c0-13,4.38-25.34,12.11-36.21a60.73,60.73,0,0,0-84.91,45.3h73.54a58.21,58.21,0,0,1-.74-9.09" transform="translate(44.81 -251.43)"/>
+    <path class="cls-4" d="M177.72,340.39H352.54a58.21,58.21,0,0,0,.74-9.09c0-44.11-49.82-79.87-111.27-79.87-43.28,0-80.77,17.75-99.16,43.65a60.79,60.79,0,0,1,34.88,45.3" transform="translate(44.81 -251.43)"/>
+    <path class="cls-4" d="M131.47,340.39h46.25a60.8,60.8,0,0,0-34.88-45.3c-7.72,10.87-12.11,23.17-12.11,36.21a58.21,58.21,0,0,0,.74,9.09" transform="translate(44.81 -251.43)"/>
+    <path class="cls-5" d="M290.16,345.47a43.32,43.32,0,0,1,8.44-25.24,42.33,42.33,0,0,0-59.18,31.57h51.26a40.57,40.57,0,0,1-.51-6.33" transform="translate(44.81 -251.43)"/>
+    <path class="cls-5" d="M322.91,351.8H444.76a40.57,40.57,0,0,0,.51-6.33c0-30.74-34.72-55.67-77.55-55.67-30.17,0-56.29,12.37-69.12,30.43a42.37,42.37,0,0,1,24.31,31.57" transform="translate(44.81 -251.43)"/>
+    <path class="cls-5" d="M290.68,351.8h32.23a42.38,42.38,0,0,0-24.31-31.57,43.32,43.32,0,0,0-8.44,25.24,40.57,40.57,0,0,0,.51,6.33" transform="translate(44.81 -251.43)"/>
+</svg>
